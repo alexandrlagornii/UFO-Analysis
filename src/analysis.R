@@ -8,7 +8,7 @@ library(maps)
 library(dplyr)
 
 # Import dataset and glimpse
-ufo_data <- read_csv("ufo_data.csv")
+ufo_data <- read_csv("../data/ufo_data.csv")
 glimpse(ufo_data)
 
 # Normalize
